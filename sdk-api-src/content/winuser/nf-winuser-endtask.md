@@ -11,8 +11,8 @@ ms.keywords: EndTask, EndTask function [Windows and Messages], _win32_EndTask, _
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -77,7 +77,7 @@ Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter will force the destruction of the
         window if an initial attempt fails to gently close the window using <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a>.
-        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>is attempted.
+        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b> is attempted.
 
 ## -returns
 
@@ -90,7 +90,7 @@ If the function fails, the return value is <b>FALSE</b>.
 
 ## -remarks
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
